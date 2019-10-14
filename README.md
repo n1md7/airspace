@@ -4,12 +4,16 @@ Github client. Test task for Airspace
 
 ## Run the application `php artisan serve`
 
-I used php laravel for back-end and Reactjs for front-end
+There is *.env.example* file which have to rename with *.env* and database credentials should be change too.
 
+I used php laravel for back-end and Reactjs for front-end
 
 For the server side controller is located under  app/Http/Controllers/CommitController.php. Model is located under app/Commit.php
 
 Reactjs files are in the resources/js/components/* 
 Loader file is in views/welcome.blade.php
 
-I have included vendor folder as well just in case but for some reason there will be missing packages it might need to run `composer install`
+I have included vendor folder as well just in case but if for some reason there will be missing packages it might need to run `composer install`
+
+and then it will work on 8000 port. 127.0.0.1:8000 or localhost:8000
+
