@@ -1,0 +1,48 @@
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+.commit{
+    box-sizing: border-box;
+}
+.commit:last-child{
+    border-bottom: 1px solid #eaecef;
+}
+
+.commit-cell{
+    border-left: 1px solid #eaecef;
+    padding: 8px 10px;
+    font-size: 12px;
+    vertical-align: top;
+    border-top: 1px solid #eaecef;
+}
+
+.commit-link-cell{
+    text-align: right;
+    position: relative;
+    padding: 8px 10px;
+    font-size: 12px;
+    border-right: 1px solid #eaecef;
+    vertical-align: top;
+    border-top: 1px solid #eaecef;
+}
+
+.read-more{
+    cursor: pointer;
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+}
+.read-more:hover{
+    text-decoration: underline;
+}
+.avatar{
+    border-radius: 2px;
+    cursor: pointer;
+}
+.username::before{
+    content: ' ';
+}
+.username::after{
+    content: ' ';
+}
+
